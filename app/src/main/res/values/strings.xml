@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AspectRespectingImageViewDemo</string>
+    <string name="sample_1_desc"><![CDATA[<strong>Aspect ratio 1:1</strong><br><br>First <font face="monospace">AspectRespectingImageView</font> has aspect ratio of 1, width of 80dp and dominant measurement as width, so it\'s height is automatically set same as the width.<br><br>Second <font face="monospace">AspectRespectingImageView</font> has same properties as first <font face="monospace">AspectRespectingImageView</font> except width is <font face="monospace">match_parent</font>, so it\'s height is automatically set same as width.]]></string>
+    <string name="sample_2_desc"><![CDATA[<strong>Aspect ratio 16:9</strong>]]></string>
+</resources>

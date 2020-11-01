@@ -1,0 +1,35 @@
+<?xml version="2.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/sample_2_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="16sp" />
+
+    <com.tejasb.aspectrespectingimageview.AspectRespectingImageView
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:scaleType="fitXY"
+        app:aspectRatio="0.5625"
+        app:aspectRatioEnabled="true"
+        app:dominantMeasurement="width"
+        app:srcCompat="@drawable/london_bridge" />
+
+    <com.tejasb.aspectrespectingimageview.AspectRespectingImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:scaleType="fitXY"
+        app:aspectRatio="0.5625"
+        app:aspectRatioEnabled="true"
+        app:dominantMeasurement="width"
+        app:srcCompat="@drawable/london_bridge" />
+
+</LinearLayout>
